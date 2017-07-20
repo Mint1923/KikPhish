@@ -1,0 +1,435 @@
+body {
+	margin:0;
+	min-width:320px;
+	max-width:320px;
+	color:#828383;
+	font:15px/20px Arial, Helvetica, sans-serif;
+	background: url(https://s3.amazonaws.com/static.kik.com/images/bg-body.gif);
+	margin:0 auto;
+}
+a {
+	color:#2294d1;
+	text-decoration:none;
+	font-weight:bold;
+}
+a:hover {text-decoration:underline;}
+.mark {
+	color:#88c541;
+	font-style:normal;
+}
+img {border:0;}
+input,
+textarea,
+select {
+	color:#828383;
+	font:100% arial,sans-serif;
+	vertical-align:middle;
+}
+form,
+fieldset {
+	margin:0;
+	padding:0;
+	border-style:none;
+}
+form {display:inline;}
+ul, ol {
+	margin:-19px 0 0;
+	padding:0 0 15px;
+}
+ul li,
+ol li {
+	padding:19px 0 0;
+	list-style-position:inside;
+}
+ul li {list-style-type:disc;}
+h1 {
+	color:#616262;
+	font:bold 24px/26px Arial, Helvetica, sans-serif;
+	margin:0 0 10px;
+}
+h2 {
+	font:bold 15px/18px Arial, Helvetica, sans-serif;
+	margin:0 0 11px;
+}
+.page {
+	height:1%;
+	padding:20px 10px 48px;
+}
+.page p {margin:0 0 22px;}
+.confirmed-accout p {margin:0 0 7px;}
+#wrapper {
+	position:relative;
+	height:1%;
+	padding:6px;
+	border:1px solid #c3c3c3;
+	background:#f2f2f2;
+	-webkit-border-radius: 7px;
+}
+.shadow {
+	height:19px;
+	margin:-7px 0 0;
+}
+.profile-page .shadow {margin-top:-6px;}
+.shadow .l {
+	float:left;
+	width:150px;
+	height:19px;
+	background: url(https://s3.amazonaws.com/static.kik.com/images/bg-shadow-white.jpg) no-repeat;
+}
+.shadow .r {
+	float:right;
+	width:139px;
+	height:19px;
+	background: url(https://s3.amazonaws.com/static.kik.com/images/bg-shadow-white.jpg) no-repeat 0 -25px;
+}
+.shadow .c {
+	display:block;
+	height:19px;
+	overflow:hidden;
+	background: url(https://s3.amazonaws.com/static.kik.com/images/bg-shadow-white.jpg) repeat-x 0 -50px;
+}
+
+.shadow2 {
+	height:19px;
+	margin:-7px 0 0;
+}
+
+.shadow2 .l {
+	float:left;
+	width:150px;
+	height:19px;
+	background: url(https://s3.amazonaws.com/static.kik.com/images/bg-shadow.gif) no-repeat;
+}
+.shadow2 .r {
+	float:right;
+	width:139px;
+	height:19px;
+	background: url(https://s3.amazonaws.com/static.kik.com/images/bg-shadow.gif) no-repeat 0 -25px;
+}
+.shadow2 .c {
+	display:block;
+	height:19px;
+	overflow:hidden;
+	background: url(https://s3.amazonaws.com/static.kik.com/images/bg-shadow.gif) repeat-x 0 -50px;
+}
+
+.container {
+	height:1%;
+	padding:24px 22px 4px;
+	background:#fff;
+}
+#header {
+	height:1%;
+	padding:0 3px 20px;
+}
+.logo {
+	display:block;
+	width:83px;
+	height:42px;
+}
+.logo a {
+	display:block;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	background: url(https://s3.amazonaws.com/static.kik.com/images/logo.gif) no-repeat;
+	text-indent:-9999px;
+}
+#content {width:100%;}
+.bar {
+	height:1%;
+	margin:0 0 18px;
+	padding:20px 2px 8px;
+	background: url(https://s3.amazonaws.com/static.kik.com/images/divider01.gif) repeat-x;
+}
+.reset-password {margin-bottom:13px;}
+.bar:after {
+	content:"";
+	clear:both;
+	display:block;
+	height:0;
+}
+.bar:first-child {
+	background-image:none !important;
+	padding-top:0 !important;
+}
+.confirmed-accout dl {margin:0;}
+.confirmed-accout dt {
+	display:inline;
+	font-style:italic;
+}
+.confirmed-accout dd {
+	display:inline;
+	margin:0;
+}
+.confirmed-accout .name {
+	color:#76c045;
+	font:bold 20px/normal Arial, Helvetica, sans-serif;
+}
+.confirmed-accout .email {
+	color:#2294d1;
+	font:bold 15px/normal Arial, Helvetica, sans-serif;
+}
+.row {
+	width:100%;
+	padding:0 0 8px;
+}
+.row:after,
+.text-holder:after {
+	content:"";
+	clear:both;
+	display:block;
+	height:0;
+}
+.text-holder {
+	padding:0 4px;
+	border:1px solid #ddd;
+	background:#fff;
+}
+.text-holder input {
+	float:left;
+	width:100%;
+	padding:3px 0;
+	font:italic 15px/17px Arial, Helvetica, sans-serif;
+	border:0;
+	background:#fff;
+}
+
+.text-holder textarea {
+	float:left;
+	width:100%;
+	padding:3px 0;
+	font:italic 15px/17px Arial, Helvetica, sans-serif;
+	border:0;
+	background:#fff;
+	height:50px;	
+}
+
+.text-holder input:focus {outline:none;}
+.check {
+	float:left;
+	width:15px;
+	height:16px;
+	margin:4px 5px 0 0;
+	padding:0;
+}
+.reset-password label {line-height:17px;}
+.action {margin:0 -5px;}
+.reset-password .action {padding:13px 0 0;}
+.action .submit {
+	color:#fff;
+	display:inline-block;
+	width:100%;
+	height:55px;
+	margin:0;
+	padding:0 0 2px;
+	font:bold 26px/55px Arial, Helvetica, sans-serif;
+	background: url(https://s3.amazonaws.com/static.kik.com/images/bg-submit.gif) repeat-x 0 -2px;
+	border:0;
+	-webkit-border-radius: 7px;
+	cursor:pointer;
+}
+.btn {
+	color:#fff !important;
+	display:inline-block;
+	width:100%;
+	height:55px;
+	font:bold 26px/55px Arial, Helvetica, sans-serif;
+	background: url(https://s3.amazonaws.com/static.kik.com/images/bg-submit.gif) repeat-x 0 -2px;
+	-webkit-border-radius: 7px;
+	text-align:center;
+}
+.green-btn,
+.blue-btn {
+	min-width:170px;
+	color:#fff !important;
+	display:block;
+	height:45px;
+	font:bold 26px/45px Arial, Helvetica, sans-serif;
+	background: url(https://s3.amazonaws.com/static.kik.com/images/bg-green-btn.gif) repeat-x 0 -2px;
+	-webkit-border-radius: 7px;
+	text-align:center;
+	margin:8px 0 0;
+	white-space:nowrap;
+}
+.blue-btn {
+	font-size:22px;
+	line-height:45px;
+	background: url(https://s3.amazonaws.com/static.kik.com/images/bg-blue-btn.gif) repeat-x 0 -2px;
+}
+.green-btn:hover,
+.blue-btn:hover {text-decoration:none;}
+.btn:hover {text-decoration:none;}
+ul.socials {
+	margin:0 -5px;
+	padding:0;
+}
+ul.socials li {
+	display:inline-block;
+	vertical-align:top;
+	width:21px;
+	padding:0 6px 0 0;
+	list-style:none outside none;
+}
+.socials a {
+	display:block;
+	width:21px;
+	height:20px;
+	overflow:hidden;
+	text-indent:-9999px;
+}
+.socials a.link-twitter {background: url(https://s3.amazonaws.com/static.kik.com/images/icons.gif) no-repeat -1px -1px;}
+.socials a.link-facebook {background: url(https://s3.amazonaws.com/static.kik.com/images/icons.gif) no-repeat -28px -1px;}
+/* fans pages */
+.fans-page {
+	color:#878888;
+	font:14px/22px Arial, Helvetica, sans-serif;
+}
+.fans-page h1 {
+	color:#878888;
+	font-size:20px;
+	line-height:26px;
+}
+.title-bar h1 {margin:0;}
+.fans-page h2 {
+	font:20px/26px Arial, Helvetica, sans-serif;
+}
+.fans-page a {color:#1c8ed7;}
+.fans-page #header {
+	width:100%;
+	height:102px;
+	margin:-3px -25px -19px;
+	padding:24px 25px;
+	background: url(https://s3.amazonaws.com/static.kik.com/images/bg-header.png) repeat-x;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+}
+.fans-page .logo {
+	width:113px;
+	height:56px;
+}
+.fans-page .logo a {background: url(https://s3.amazonaws.com/static.kik.com/images/logo-big.gif) no-repeat;}
+.fans-page #wrapper {
+	padding:3px;
+	background:#e9ebeb;
+}
+.fans-page .container {padding-top:0;}
+.fans-page .bar {
+	margin-bottom:0;
+	padding-bottom:18px;
+}
+.title-bar {
+	text-align:center;
+	line-height:18px;
+}
+.title-bar p {margin:15px 0 0;}
+.title-bar p:first-child {margin-top:0;}
+.title-bar h2 {margin:0;}
+.note-bar {
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+	font:italic 14px/18px Arial, Helvetica, sans-serif;
+	padding-bottom:11px !important;
+}
+.note-bar p {margin-bottom:18px;}
+/* profile pages */
+.profile-page {
+	color:#9b9b9b;
+	background:#fff;
+	font:12px/18px Arial, Helvetica, sans-serif;
+}
+.profile-page a {color:#666;}
+.profile-page p {margin:0 0 17px;}
+.profile-page .page {padding-bottom:20px;}
+.profile-page #content {width:100%;}
+.profile-box {margin:0 -4px 4px;}
+.profile-box:after {
+	content:"";
+	clear:both;
+	display:block;
+	height:0;
+}
+.profile1 {
+	position:relative;
+	height:1%;
+	border:1px solid #c8caca;
+	-webkit-border-radius: 5px;
+	background: url(https://s3.amazonaws.com/static.kik.com/images/bg-profile1.gif) repeat-x 0 100%;
+}
+.profile2 {
+	height:1%;
+	overflow:hidden;
+	padding:10px 9px;
+	border:3px solid;
+	border-color:#e1e3e3 #dadede #dadddd;
+	-webkit-border-radius: 5px;
+}
+.profile-box .pic {
+	float:left;
+	margin:0 10px 0 0;
+}
+.profile-box .content {
+	height:1%;
+	overflow:hidden;
+	padding:4px 0 0;
+}
+.profile-box dl {
+	font:bold 12px/18px Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0 2px;
+}
+.profile-box dt {
+	display:inline;
+	font-size:10px;
+	line-height:normal;
+	text-transform:uppercase;
+}
+.profile-box dd {
+	color:#666;
+	display:inline;
+	margin:0;
+}
+.profile-page .name {color:#666;}
+.promo-bar {
+	width:100%;
+	padding:4px 0 0;
+	border-top:1px solid #e3e6e6;
+	line-height:18px;
+}
+.promo-bar p {
+	margin:0;
+	padding:1px 0 0;
+	height:1%;
+	overflow:hidden;
+}
+.promo-bar a {
+	font-weight:normal;
+	margin:0 0 0 6px;
+}
+.logo-small {
+	float:right;
+	width:35px;
+	height:18px;
+}
+.logo-small a {
+	display:block;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	background: url(https://s3.amazonaws.com/static.kik.com/images/logo-small.gif) no-repeat;
+	text-indent:-9999px;
+	margin:0;
+}
+.profile-page h2,
+p.msg {
+	color:#666;
+	font:bold 18px/21px Arial, Helvetica, sans-serif;
+	padding:3px 0 0;
+	margin:0 0 15px;
+}
+
+.highlight_green{
+    font-weight:bold;
+    color:#85c500;
+}
